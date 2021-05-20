@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route path="/account" component={Account} exact />
+          <Route path="/account" component={Account} />
           <Route render={() => <Route component={Error} />} />
         </Switch>
       </Router>
